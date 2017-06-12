@@ -7,7 +7,7 @@
     <title>CHEC stories: Aisha + Swaleh</title>
     <meta name="author" content="Victor Kabuye" />
     <style>
-      @font-face { font-family:Montserrat; src:url('fonts/montserrat-extra-bold.woff') format('woff'), url('fonts/montserrat-extra-bold.woff2') format('woff2'); font-weight:bold; font-style:normal; }
+      @font-face { font-family:Montserrat; src:url('fonts/montserrat-extra-bold.woff2') format('woff2'), url('fonts/montserrat-extra-bold.woff') format('woff'); font-weight:bold; font-style:normal; }
       html { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size:112.5%; line-height:1.45; color:#333; box-sizing:border-box; -moz-font-feature-settings:"kern" 1, "dlig" 1, "ss01" 1; font-feature-settings:"kern" 1, "dlig" 1, "ss01" 1; }
       * { font-family:inherit; line-height:inherit; color:inherit; margin:0; }
       *, *:before, *:after { box-sizing:inherit; padding:0; }
@@ -69,12 +69,14 @@
       .menu-visible.menu:after { opacity:1; pointer-events:auto; }
       .layout { height:100vh; position:relative; overflow-x:hidden; }
       .header { position:absolute; width:100%; z-index:1; border-bottom:1px solid rgba(204, 197, 161, 0.05); overflow:hidden; /*clears menu-icon float*/ }
-      .menu-icon { content:"Menu"; font-size:1.45rem; color:#E0DD6C; background-color:#B83B29; width:2.223rem; height:2.223rem; line-height:2.223rem; text-align:center; float:right; cursor:pointer; }
+      .menu-icon { content:"Menu"; font-size:1.45rem; color:#F0ED7C; background-color:#B83B29; width:2.223rem; height:2.223rem; line-height:2.223rem; text-align:center; float:right; cursor:pointer; }
       .app-menu { height:90vh; /*box-shadow:none;*/ background-color:rgba(70,70,82,0.82); }
       @media (min-width: 768px) {
         .header { border:none; }
       }
     </style>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
     <div class="menu">
