@@ -132,9 +132,15 @@
         <h1>Contact us</h1>
         <p>Tel: <a href="tel: +2560782500757" class="tel">+256 (0)782 500757</a></p>
         <form method="POST" id="contact-form" class="contact-form">
-          <input type="text" name="name" placeholder="Your name" />
-          <input type="email" name="email" placeholder="Your e-mail" />
-          <textarea rows="4" name="message" placeholder="What's on your mind?"></textarea>
+          <label>Name:
+            <input type="text" name="name" placeholder="Your name" />
+          </label>
+          <label>E-mail:
+            <input type="email" name="email" placeholder="Your e-mail" />
+          </label>
+          <label>Message:
+            <textarea rows="4" name="message" placeholder="What's on your mind?"></textarea>
+          </label>
           <input type="hidden" name="_subject" value="Web form submission" />
           <input type="hidden" name="_next" value="//childhappiness.net/contact.html#thankyou" />
           <input type="submit" value="Send" class="balanced" />
