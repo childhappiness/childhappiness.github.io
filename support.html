@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>CHEC: Support us</title>
+    <meta name="author" content="Victor Kabuye" />
+    <style>
+      @font-face { font-family:Montserrat; src:url('fonts/montserrat-extra-bold.woff') format('woff'), url('fonts/montserrat-extra-bold.woff2') format('woff2'); font-weight:bold; font-style:normal; }
+      @keyframes fade-in {
+        0% { opacity: 0; }
+        50% { opacity: 0.4; }
+        100% { opacity: 1; }
+      }
+      html { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size:112.5%; line-height:1.45; color:#333; box-sizing:border-box; }
+      * { font-family:inherit; line-height:inherit; color:inherit; margin:0; }
+      *, *:before, *:after { box-sizing:inherit; padding:0; }
+      * + * { margin-top:1.45rem; }
+      article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary { display:block; }
+      body, br, li, dt, dd, th, td, option, .notopmarg, h2+*, h3+*, h4+*, h5+*, h6+* { margin-top:0; }
+      body { color:#CCC5A1; background-color:#464652; }
+      h1, h2, h3, h4, h5, h6 { font-family:Montserrat, sans-serif; line-height:1.2; letter-spacing:0.015em; word-spacing:0.025em; margin-bottom:0.725rem; }
+      h1 { font-size:2.0273em; margin-top:2.9rem; padding-top:1.0725em; } h2 { font-size:1.7708em; padding-top:1.207em; } h3 { font-size:1.6018em; padding-top:1.358em; } h4 { font-size:1.4238em; padding-top:1.018em; } h5 { font-size:1.2656em; padding-top:1.145em; } h6 { font-size:1.125em; padding-top:1.289em; }
+      a:link { color:#B83B29; }
+      a:visited { color:#736356; }
+      a:hover, a:focus, a:active { background-color:#E0DD6C; }
+      .a:hover, .a:focus, .a:active { background-color:transparent; } /* only stories page */
+      .vh { position:absolute; border:0; padding:0; clip:rect(0,0,0,0); width:1px; height:1px; margin:-1px; overflow:hidden; opacity:0; }
+      .readable { max-width:38em; padding-left:1rem; padding-right:1rem; padding-top:2.9rem; }
+      .readable img { position:relative; width:100%; width:93vw; left:50%; right:50%; margin-left:-50%; margin-left:-46.5vw; margin-right:-50%; margin-right:-46.5vw; }
+      .block { display:block; padding:0.5rem; }
+      .inline { display:inline-block; vertical-align:top; }
+      .centered { text-align:center; }
+      .balanced { margin-left:auto; margin-right:auto; }
+      .bold {font-weight:bold; }
+      .flip { transform:scaleX(-1) }
+      .clear-bottom { margin-bottom:2.9rem; }
+      nav { position:absolute; top:0; left:0; right:0; bottom:0; height:50vh; margin:auto; font-size:0.889rem; text-align:center; }
+      @media (min-width: 42.67em){
+        nav { font-size:1rem; }
+      }
+      .vertnav { vertical-align:top; text-transform:uppercase; margin-left:0.9em; writing-mode:vertical-lr; text-orientation:upright; }
+      nav a:link, nav a:visited { color:#B83B29; background-color:#E0DD6C; text-decoration:none; transition:color 0.25s ease-out, background-color 0.25s ease-out; }
+      nav a:hover, nav a:focus, nav a:active { color:#E0DD6C; background-color:#B83B29; }
+      .active { border-bottom:4px solid; }
+      footer { display:table; text-align:center; width:100%; height:5vmax; margin-top:auto; clear:both; color:#333; background-color:#e0dd6c; position:relative; z-index:1; text-align:center; transform:rotate(-0.7deg) scale(1.6); }
+      @supports (display: flex) {
+        footer { display:flex; justify-content:center; align-items:center; }
+      }
+      footer * { transform: rotate(0.7deg) scale(0.625); }
+      footer p { margin-top:-0.5vmax; }
+      .stories { padding-top:1.45rem; margin-bottom:2.9rem; }
+      .storylink { display:inline-block; position:relative; width:24%; height:75vh; margin-left:4.33%; margin-right:4.33%; background-repeat:no-repeat; background-size:cover; background-position:center top; transition:filter 0.25s ease-out; }
+      .storylink:after { content:attr(data-name); position:absolute; left:101%; font-size:0.889em; text-transform:uppercase; writing-mode:vertical-lr; text-orientation:upright; }
+      .storylink:hover { -webkit-filter:grayscale(0.8); filter:grayscale(0.85); }
+      .storylink a { position:absolute; top:0; bottom:0; left:0; right:0; color:transparent; }
+      @media  (min-width: 42.67em) {
+        .stories { max-width:75%; }
+        .storylink { width:12%; margin-left:2.33%; margin-right:2.33%; }
+      }
+      .storylink:nth-of-type(1) { background-image:url('aisha.jpg'); }
+      .storylink:nth-of-type(2) { background-image:url('hailat.jpg'); }
+      .storylink:nth-of-type(3) { background-image:url('james.jpg'); }
+      .storylink:nth-of-type(4) { background-image:url('joel.jpg'); }
+      .storylink:nth-of-type(5) { background-image:url('twins.jpg'); }
+      .storylink:nth-of-type(6) { background-image:url('fortune.jpg'); }
+      .menu { position:fixed; left:0; top:0; width:100%; height:100%; overflow:hidden; pointer-events:none; z-index:150; }
+      .menu-visible { pointer-events:auto; }
+      .app-menu { position:relative; max-width:100%; width:100%; height:100%; box-shadow:0 1px 6px rgba(0, 0, 0, 0.5); -webkit-transform:translateY(-103%); transform:translateY(-103%); display:flex; flex-direction:column; will-change:transform; z-index:160; pointer-events:auto; }
+      .menu-visible .app-menu { -webkit-transform:none; transform:none; }
+      .menu-animatable .app-menu { transition:all 130ms ease-in; }
+      .menu-visible.menu-animatable .app-menu { transition:all 330ms ease-out; }
+      .menu:after { content:''; display:block; position:absolute; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.4); opacity:0; will-change:opacity; pointer-events:none; transition:opacity 300ms cubic-bezier(0,0,0.3,1); }
+      .menu-visible.menu:after { opacity:1; pointer-events:auto; }
+      .layout { display:flex; flex-direction:column; min-height:100vh; position:relative; overflow:hidden; }
+      .header { position:absolute; width:100%; z-index:1; border-bottom:1px solid rgba(204, 197, 161, 0.05); overflow:hidden; /*clears menu-icon float*/ }
+      .menu-icon { content:"Menu"; font-size:1.45rem; color:#E0DD6C; background-color:#B83B29; width:2.223rem; height:2.223rem; line-height:2.223rem; text-align:center; float:right; cursor:pointer; }
+      .app-menu { height:90vh; /*box-shadow:none;*/ background-color:rgba(70,70,82,0.82); }
+      @media (min-width: 768px) {
+        .header { border:none; }
+        .menu, .app-menu, .menu-icon { visibility:hidden; }
+        .menu { position:absolute; }
+        .app-menu { -webkit-transform:none; transform:none; }
+        nav { position:static; width:100%; -webkit-transform:none; transform:none; visibility:visible; text-align:right; margin:unset; padding-top:1rem; padding-right:0.75rem; }
+        nav li { display:inline-block; vertical-align:top; }
+        nav a { text-align:center; padding-left:0.75rem; }
+        .readable { padding-left:0; padding-right:0; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="app-menu">
+        <nav>
+          <ul>
+            <li class="vertnav inline"><a href="start.html" class="block">home</a></li><!--
+         --><li class="vertnav inline"><a href="about.html" class="block">about</a></li><!--
+         --><li class="vertnav inline"><a href="stories.html" class="block">stories</a></li><!--
+         --><li class="vertnav inline"><a href="contact.html" class="block">contact</a></li><!--
+         --><li class="vertnav inline"><a href="support.html" class="block active">support</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="layout notopmarg">
+      <div class="header">
+        <div class="menu-icon">&#9776;</div>
+      </div>
+      <section class="readable balanced notopmarg clear-bottom">
+        <h1>Support</h1>
+        <h2>School sponsorship</h2>
+        <p>The director has worked with children over a long period of time, in similar circumstances, and is trained as a teacher, and having identified the needs of the at-risk children in Kivule, was inspired to use her experience and expertise to try to meet their needs.</p>
+        <p>CHEC has managed to sponsor a few children for formal education, and is constantly searching for willing donors who can provide the financial support for the education of an ever-increasing number of such cases of abandoned children in the community surrounding us.</p>
+        <img src="images/24825-crop.jpg" alt="chec classroom supplies" />
+        <h2>Funding</h2>
+        <p>During its inception the activities and programmes carried out at CHEC were supported by grants, and contributions from founder members. Future programs and activities will require support by funding organizations and CHEC partners through provision of working materials and financial assistance to the designated programme activities. Examples include stationery, toys, and children’s clothes, that could help in community outreach programmes.</p>
+        <h2>Challenges</h2>
+        <p>The main short-term challenge facing CHEC is in securing registration by the national NGO board, and finding more space for our facilities, made necessary by the ever-increasing number of children.</p>
+        <p>It is vital to identify a long-term funder to support CHEC’s strategic plans to fulfill it’s activity and programme initiatives. With small grants from willing donors and partners, CHEC plans to intensify community-outreach to target groups. There is a need to strengthen the fund-raising activities both locally and internationally, to sustainably manage on-going and proposed programmes.</p>
+        <p>We need to ensure and diversify reliable sources for staff salaries in order to facilitate a motivated staff to enable the implementation of planned activities, and hinder the loss of a well-trained resource which the children have come to rely upon.</p>
+      </section>
+      <footer>
+        <p>
+          &copy;<span id="copyrt1"><script>document.getElementById('copyrt1').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+          </span>
+          CHEC, All rights reserved.
+        </p>
+      </footer>
+    </div>
+    
+    <script>
+      function toggleClassMenu() {
+        myMenu.classList.add("menu-animatable");
+        if(!myMenu.classList.contains("menu-visible")) {
+          myMenu.classList.add("menu-visible");
+        } else {
+          myMenu.classList.remove('menu-visible');
+        }
+      }
+
+      function OnTransitionEnd() {
+        myMenu.classList.remove("menu-animatable");
+      }
+
+      var myMenu = document.querySelector(".menu");
+      var opnMenu = document.querySelector(".menu-icon");
+      myMenu.addEventListener("transitionend", OnTransitionEnd, false);
+      opnMenu.addEventListener("click", toggleClassMenu, false);
+      myMenu.addEventListener("click", toggleClassMenu, false);
+    </script>
+    <script>'use strict';if('serviceWorker'in navigator&&(typeof Cache!=='undefined'&&Cache.prototype.addAll)){navigator.serviceWorker.register('checworker.js');};</script>
+  </body>
+</html>
