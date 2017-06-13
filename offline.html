@@ -35,6 +35,8 @@
       .bold {font-weight:bold; }
       .flip { transform:scaleX(-1) }
       .clear-bottom { margin-bottom:2.9rem; }
+      .ns-mail:before { content: attr(data-user) '\0040'; }
+      .ns-mail:after { content: attr(data-domain) attr(data-tld); }
       nav { position:absolute; top:0; left:0; right:0; bottom:0; height:50vh; margin:auto; font-size:0.889rem; text-align:center; }
       @media (min-width: 42.67em){
         nav { font-size:1rem; }
@@ -104,8 +106,9 @@
       <section class="readable balanced notopmarg clear-bottom">
         <h1 class="centered">Offline</h1>
         <p>It looks like you lost your internet connection and are offline.</p>
-        <p>The page you are trying to get to has not been saved for offline viewing.</p>
-        <p>Please check your connection settings, or browse our other offline pages.</p>
+        <p>The page you are trying to get to has not been saved for offline viewing.<br />
+        Please check your connection settings, or browse our other offline pages.</p>
+        <p>If you need to contact CHEC, call us at <a href="tel: +2560782500757">+256 (0)782 500757</a> or <span id="s-mail"><script>var myElement=document.getElementById('s-mail'),uname="sayhello",hname="childhapp",dname="iness.net",linktext=uname+"&#64;"+hname+dname;myElement.innerHTML="<a href='"+"mai"+"lto:"+linktext+"?subject=Just%20saying%20hello' rel='nofollow, noopener' aria-label='e-mail'>e-mail us</a>";</script><noscript><span class="ns-mail" data-user="sayhello" data-domain="childhapp" data-tld="iness.net"></span></noscript></span>.</p>
       </section>
       <footer>
         <p>
