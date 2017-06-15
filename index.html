@@ -19,6 +19,7 @@
       a:link { color:#B83B29; }
       a:visited { color:#736356; }
       a:hover, a:focus, a:active { background-color:#F0ED7C; }
+      .vh { position:absolute; border:0; padding:0; clip:rect(0,0,0,0); width:1px; height:1px; margin:-1px; overflow:hidden; opacity:0; }
       .box { min-height:100vh; overflow:hidden; }
       .left, .right, footer { display:table; text-align:center; }
       @supports (display: flex) {
@@ -46,11 +47,13 @@
       p { max-width:38em; margin-left:auto; margin-right:auto; }
       .text p:first-of-type { margin-top:2.9rem; }
     </style>
+    <meta name="description" content="CHEC is a community-based organization intended to make an impact on the problem of vulnerable children and out-of-school childrens’ rights to education" />
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
     <div class="box notopmarg">
+      <h1 class="vh">Child Happiness Education Centre</h1>
       <section class="left notopmarg"><a href="start.html" aria-label="home"><h2>Welcome to CHEC</h2></a></section>
       <section class="right notopmarg">
         <a href="start.html" aria-label="home" class="logo"><img src="images/logo.svg" alt="chec logo" /></a>
