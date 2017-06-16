@@ -86,6 +86,28 @@
         nav a { text-align:center; padding-left:0.75rem; }
         .readable { padding-left:0; padding-right:0; }
       }
+      @media print {
+        *, *:before, *:after { background-color:transparent !important; color:#000 !important; box-shadow:none !important; text-shadow:none !important; }
+        a, a:visited { text-decoration:underline; }
+        a[href]:after { content:none !important; }
+        abbr[title]:after { content:"(" attr(title) ")"; }
+        a[href^="javascript:"]:after, a[href^="#"]:after { content:""; }
+        nav { display:none !important; }
+        pre, blockquote { page-break-inside:avoid; }
+        thead { display:table-header-group; }
+        tr, img { page-break-inside:avoid; }
+        img { max-width:100% !important; }
+        h1 { margin-top:0; padding-top:0; }
+        p, h2, h3 { orphans:3; widows:3; }
+        h2, h3 { page-break-after:avoid; }
+        h1+h2, h2+*, h3+* { page-break-before:avoid; }
+        .layout { height:auto; min-height:100vh; }
+        .header, .back-arrow { display:none; }
+        .story,.storypic { display:block; }
+        .storylink { height:22rem; }
+        .storylink a { text-decoration:none; }
+        p:first-of-type:first-letter { all:inherit !important; }
+      }
     </style>
     <meta name="description" content="CHEC is a community-based organization intended to make an impact on the problem of vulnerable children and out-of-school childrens’ rights to education" />
     <link rel="manifest" href="/manifest.json" />
