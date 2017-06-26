@@ -1,0 +1,8 @@
+# Don't cache serviceworkers, ever.
+<Files checworker.js>
+  FileETag None
+  Header unset ETag
+  Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+  Header set Pragma "no-cache"
+  Header set Expires "Wed, 30 Jan 1980 01:00:00 GMT"
+</Files>
