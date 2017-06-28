@@ -1,8 +1,7 @@
-# Don't cache serviceworkers, ever.
-<Files checworker.js>
-  FileETag None
-  Header unset ETag
-  Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
-  Header set Pragma "no-cache"
-  Header set Expires "Wed, 30 Jan 1980 01:00:00 GMT"
-</Files>
+server {
+  location ~* (checworker\.js)$ {
+    add_header 'Cache-Control' 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0';
+    expires off;
+    proxy_no_cache 1;
+  }
+}
