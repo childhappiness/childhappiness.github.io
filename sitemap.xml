@@ -8,11 +8,11 @@
 
 <url>
   <loc>https://childhappiness.net/</loc>
-  <lastmod>2017-06-15T11:40:56+00:00</lastmod>
+  <lastmod>2018-02-18T01:09:56+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
-<url>
+<!--<url>
   <loc>https://childhappiness.net/start.html</loc>
   <lastmod>2017-06-15T11:40:56+00:00</lastmod>
   <changefreq>weekly</changefreq>
@@ -77,5 +77,5 @@
   <lastmod>2017-06-15T11:40:56+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
-</url>
+</url>-->
 </urlset>
